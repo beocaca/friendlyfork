@@ -74,8 +74,7 @@ export type Pools = {
 
 const POOLS_GOERLI: Pools = {
   IdsMap: {
-    staBAL:
-      '',
+    staBAL: '',
     bbAaveUSD: {
       v1: '',
       v2: '',
@@ -114,14 +113,13 @@ const POOLS_GOERLI: Pools = {
     '0x94f68b54191f62f781fe8298a8a5fa3ed772d227': 'weightedPool', // weighted pool v2
   },
   Stakable: {
-    AllowList: [
-      '',
-      '',
-      '',
-      '',
-    ],
+    AllowList: [],
   },
-  Metadata: { },
+  Metadata: {
+    '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f': {
+      name: 'Balancer Boosted Aave USD',
+      hasIcon: false,
+    },
   },
 };
 
