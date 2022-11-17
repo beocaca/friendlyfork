@@ -184,7 +184,8 @@ const POOLS_MAINNET: Pools = {
     ],
   },
   Factories: {
-    '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0': 'oracleWeightedPool',
+    
+    '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74eb9': 'oracleWeightedPool',
     '0x8e9aa87e45e92bad84d5f8dd1bff34fb92637de9': 'weightedPool',
     '0xc66ba2b6595d3613ccab350c886ace23866ede24': 'stablePool',
     '0x67d27634e44793fe63c467035e31ea8635117cd4': 'stablePool', // Metastable
