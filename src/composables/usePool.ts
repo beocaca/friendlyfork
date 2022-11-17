@@ -325,6 +325,7 @@ export function tokenTreeLeafs(
  * @summary Check if pool should be accessible in UI
  */
 export function isBlocked(pool: Pool, account: string): boolean {
+  console.log("the pole is ",pool)
   const requiresAllowlisting =
     isStableLike(pool.poolType) || isManaged(pool.poolType);
   const isOwnedByUser =
