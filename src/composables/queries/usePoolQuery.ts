@@ -67,9 +67,6 @@ export default function usePoolQuery(
         },
       });
     }
-
-    if (isBlocked(pool, account.value)) throw new Error('Pool not allowed');
-
     // Decorate subgraph data with additional data
     const poolDecorator = new PoolDecorator([pool]);
     const [decoratedPool] = await poolDecorator.decorate(
