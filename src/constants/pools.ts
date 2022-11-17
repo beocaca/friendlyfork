@@ -102,7 +102,7 @@ const POOLS_GOERLI: Pools = {
     AllowList: [],
   },
   Factories: {
-    '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0': 'oracleWeightedPool',
+    '0xab5D2bec9e159879267546A419eE208bD36E35cC': 'oracleWeightedPool',
     '0x04C14398c914F3FABa5056912D70fDeBdC756cab': 'weightedPool',
     '0x37b2367DECcF8081e7320948B5446C2340dcd467': 'stablePool',
     '0x7874D12B72d8935414e9f99d244B59b0C1f12f9E': 'stablePool', // Metastable
@@ -184,8 +184,7 @@ const POOLS_MAINNET: Pools = {
     ],
   },
   Factories: {
-    
-    '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74eb9': 'oracleWeightedPool',
+    '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0': 'oracleWeightedPool',
     '0x8e9aa87e45e92bad84d5f8dd1bff34fb92637de9': 'weightedPool',
     '0xc66ba2b6595d3613ccab350c886ace23866ede24': 'stablePool',
     '0x67d27634e44793fe63c467035e31ea8635117cd4': 'stablePool', // Metastable
